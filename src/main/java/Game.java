@@ -1,7 +1,17 @@
+import javax.persistence.*;
+
+@Entity
+@Table(name="GAMES")
 public class Game {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
+    @Column(name = "NAME")
     private String name;
+
+    @Column(name = "YEAR")
     private int year;
 
     public long getId() {
