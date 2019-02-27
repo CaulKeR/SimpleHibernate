@@ -59,7 +59,7 @@ public class Main {
         System.out.println("--------------------------------------------------------");
 
         // Удаление
-        main.deleteEntity(36L);
+        main.deleteEntity(38L);
 
         // Показать всех
         main.listOfGames();
